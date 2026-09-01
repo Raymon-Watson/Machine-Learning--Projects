@@ -1,11 +1,9 @@
-# House Price Linear Regression
+# Machine Learning Projects
 
-This is the first of a series of repositories devoted to learning Machine Learning (ML) concepts and more general data science practices via Python.
+This repository contains a series of folders on Machine Learning (ML) topics that I have studied, each containing at least one relevant project. The aim is to learn a variety of ML topics via Python, while additionally applying data analysis techniques based in pandas.
 
-The focus of this repository is to employ basic linear regression through Python in order to predict house prices. As such, this project will contain a lot of detailed notes on the process, as well as on the individual methods used.
+The following sections contain overviews of each topic, as well as a summary of each project.
 
-**Dataset from:** https://www.kaggle.com/datasets/prokshitha/home-value-insights
+## Linear Regression
 
 
-
-## 
