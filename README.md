@@ -1,9 +1,5 @@
 # Machine Learning Projects
 
-This repository contains a series of folders on Machine Learning (ML) topics that I have studied, each containing at least one relevant project. The aim is to learn a variety of ML topics via Python, while additionally applying data analysis techniques based in pandas.
+This repository contains a series of ML projects, contained in the 'Projects' folder, covering a breadth of ML methods. Additionally, the 'ML-Notes' folder contains relevant notes on the various ML algorithms and techniques utilized across the projects.
 
-The following sections contain overviews of each topic, as well as a summary of each project.
-
-## Linear Regression
-
-
+The **main aim** of this repository is to learn a variety of ML methods, along with the methodology for data analysis type projects applicable in real-world scenarios.
