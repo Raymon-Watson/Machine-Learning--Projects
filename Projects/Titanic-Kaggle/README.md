@@ -39,11 +39,12 @@ Titanic-Kaggle/
 Best GridSearchCv parameters: {'max_depth': 8, 'min_samples_leaf': 1, 'min_samples_split': 7, 'n_estimators': 50}
 
 ## Key Findings
-1. **Sex** was by far the most important feature for predicting survival
-2. **Feature engineering** (e.g. Fam, AgeGroup) did not have a significant impact on model performance
-3. **Model tuning** with GridSearchCV meaningfully improved the Random Forest model
-4. There was no strictly obvious outlier in models
-5. Data standardization was utilized to improve model accuracy
+1. **Random Forest was the best performing model** with a tuned accuracy of 0.87 and F1 score of 0.83
+2. **Sex** was by far the most important feature for predicting survival (~74% female survival, ~19% male survival)
+3. **Overall survival rate** was only ~38%
+4. **Lower fare reduced survival rate**, those with the lowest fare had a significantly lower chance of survival
+5. **Larger family size improved survival rate**
+6. **Passenger class** significantly impacted survival rate, with upper class having a survival percentage of ~63%, and lower class of ~24%
 
 
 ## How To Run This Project
