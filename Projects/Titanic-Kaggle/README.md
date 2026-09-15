@@ -4,6 +4,18 @@ Dataset from: https://www.kaggle.com/competitions/titanic/overview
 
 A binary classification problem for predicting whether a passenger survived the Titanic disaster using machine learning.
 
+## Project Structure
+```text
+Titanic-Kaggle/
+├── data/
+│   └── titanic.csv              # Raw dataset
+│   └── titanic_cleaned.csv      # Cleaned dataset
+├── 01_eda.ipynb                 # Exploratory Data Analysis
+├── 02_data_cleaning.ipynb       # Data Cleaning & Feature Engineering
+├── 03_model_building.ipynb      # Model Training & Evaluation
+└── README.md
+```
+
 ## Notebooks
 |Number| Notebook|Details|
 |-|-|-|
