@@ -32,9 +32,10 @@ The best model after tuning was found to be the **Random Forest** model, which a
 - Precision: 0.806
 - Recall: 0.841
 - F1: 0.823
-- AUC 0.912
+- AUC 0.899
 
-Best GridSearchCv parameters: {'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 45}
+Best GridSearchCv parameters: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 40}
+
 
 ## Key Findings
 1. **Random Forest was the best performing model** with a tuned accuracy of 0.86 and F1 score of 0.82
