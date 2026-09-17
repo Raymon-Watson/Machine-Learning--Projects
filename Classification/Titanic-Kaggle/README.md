@@ -25,21 +25,19 @@ Titanic-Kaggle/
 
 
 ## Results
-6 classification models were trained and compared, with the best performing model (Random Forest) chosen for further tuning, and denoted Tuned Random Forest:
-|Model|Accuracy|Precision|Recall|F1|
-|-|-|-|-|-|
-|Decision Tree|0.79|0.77|0.71|0.74|
-|Random Forest|0.87|0.84|0.82|0.83|
-|K-Nearest Neighbors|0.84|0.75|0.83|0.79|
-|Support Vector Machine|0.85|0.81|0.80|0.81|
-|Stochastic Gradient Descent|0.78|0.80|0.68|0.73|
-|Logistic Regression|0.82|0.78|0.75|0.77|
-|Tuned Random Forest|0.87|0.83|0.83|0.83|
+6 classification models were trained and compared, with the two best performing model (Random Forest and Logistic Regression) chosen for further tuning.
 
-Best GridSearchCv parameters: {'max_depth': 8, 'min_samples_leaf': 1, 'min_samples_split': 7, 'n_estimators': 50}
+The best model after tuning was found to be the **Random Forest** model, which achieved a final performance on the test set data of:
+- Accuracy: 0.860
+- Precision: 0.806
+- Recall: 0.841
+- F1: 0.823
+- AUC 0.912
+
+Best GridSearchCv parameters: {'max_depth': 12, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 45}
 
 ## Key Findings
-1. **Random Forest was the best performing model** with a tuned accuracy of 0.87 and F1 score of 0.83
+1. **Random Forest was the best performing model** with a tuned accuracy of 0.86 and F1 score of 0.82
 2. **Sex** was by far the most important feature for predicting survival (~74% female survival, ~19% male survival)
 3. **Overall survival rate** was only ~38%
 4. **Lower fare reduced survival rate**, those with the lowest fare had a significantly lower chance of survival
