@@ -25,7 +25,7 @@ Titanic-Kaggle/
 
 
 ## Results
-6 classification models were trained and compared, with the two best performing model (Random Forest and Logistic Regression) chosen for further tuning.
+6 classification models were trained and compared, with the three best performing model (Random Forest, Logistic Regression, and K-Nearest Neighbors) chosen for further tuning.
 
 The best model after tuning was found to be the **Random Forest** model, which achieved a final performance on the test set data of:
 - Accuracy: 0.860
