@@ -1,13 +1,17 @@
 # Machine Learning Projects
 
-This repository contains a collection of machine learning projects completed as part of my ongoing study of data science and machine learning.
+This repository contains a collection of machine learning projects completed as part of my ongoing study of **data science, machine learning, and neural networks**.
 
-The projects are organised into two main areas:
+The projects are currently organised into two main areas:
 
 * **Classification**
 * **Regression**
 
 Each project is contained in its own folder and follows a structured workflow including exploratory data analysis, data preprocessing, model development, evaluation, and model comparison.
+
+As the repository develops, projects will progress from classical machine learning methods toward **neural networks and deep learning techniques**.
+
+---
 
 ## Repository Structure
 
@@ -32,7 +36,7 @@ machine-learning-projects/
 └── README.md
 ```
 
-The repository will expand as I work through additional machine learning problems and modelling techniques.
+The repository will expand as I work through additional machine learning problems, modelling techniques, and neural network architectures.
 
 ---
 
@@ -48,7 +52,9 @@ The objective is to classify images of handwritten digits into one of ten classe
 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
 ```
 
-This project is being used to explore and compare several classification algorithms, including:
+This project provides a useful environment for comparing a range of classification algorithms, from traditional machine learning methods to neural networks.
+
+Models and approaches explored or planned include:
 
 * Stochastic Gradient Descent
 * Support Vector Machines
@@ -56,6 +62,8 @@ This project is being used to explore and compare several classification algorit
 * Naive Bayes
 * Random Forests
 * Multiclass classification strategies
+* Fully connected neural networks
+* Convolutional Neural Networks
 
 Topics covered include:
 
@@ -68,6 +76,9 @@ Topics covered include:
 * ROC curves
 * Hyperparameter tuning
 * Model comparison
+* Neural network training
+* Image classification
+* Comparison between classical ML and neural network approaches
 
 ---
 
@@ -128,6 +139,7 @@ Planned topics include:
 * Random Forest Regression
 * Support Vector Regression
 * Gradient Boosting
+* Neural Network Regression
 * Feature engineering
 * Cross-validation
 * Hyperparameter optimisation
@@ -139,6 +151,72 @@ Typical regression metrics will include:
 * Mean Squared Error (MSE)
 * Root Mean Squared Error (RMSE)
 * R² score
+
+---
+
+## Neural Networks and Deep Learning
+
+As I progress beyond classical machine learning models, this repository will also include projects exploring **neural networks and deep learning**.
+
+The aim is to understand both how neural networks are implemented and the theory behind how they learn.
+
+### Core Neural Network Concepts
+
+Topics to be explored include:
+
+* Artificial neurons
+* Layers and network architecture
+* Input, hidden, and output layers
+* Weights and biases
+* Activation functions
+
+  * ReLU
+  * Sigmoid
+  * Tanh
+  * Softmax
+* Forward propagation
+* Loss functions
+* Gradient descent
+* Backpropagation
+* Mini-batch training
+* Epochs and batch size
+* Learning rates
+* Weight initialisation
+* Optimisers
+
+  * Stochastic Gradient Descent
+  * Momentum
+  * RMSprop
+  * Adam
+
+### Model Training
+
+Neural network projects will explore:
+
+* Training and validation sets
+* Learning curves
+* Overfitting and underfitting
+* Early stopping
+* Dropout
+* Batch normalisation
+* Regularisation
+* Hyperparameter tuning
+* Model evaluation
+
+### Neural Network Architectures
+
+Planned architectures include:
+
+| Architecture                       | Typical Application                                  |
+| ---------------------------------- | ---------------------------------------------------- |
+| Multilayer Perceptron (MLP)        | Tabular classification and regression                |
+| Convolutional Neural Network (CNN) | Image classification and computer vision             |
+| Recurrent Neural Network (RNN)     | Sequential data                                      |
+| LSTM / GRU                         | Longer sequential dependencies                       |
+| Autoencoder                        | Representation learning and dimensionality reduction |
+| Transformer                        | Language and sequence modelling                      |
+
+Initial projects will focus primarily on **fully connected neural networks and convolutional neural networks** before progressing to more advanced architectures.
 
 ---
 
@@ -174,85 +252,8 @@ Where appropriate, projects follow a similar machine learning workflow:
 
 Using a consistent structure makes it easier to compare different datasets, models, and modelling approaches.
 
----
+For neural network projects, this workflow may additionally include:
 
-## Tools and Libraries
-
-The projects primarily use Python and the standard data science and machine learning ecosystem.
-
-### Core Tools
-
-* Python
-* Jupyter Notebook
-* Git
-* GitHub
-
-### Data Analysis
-
-* NumPy
-* pandas
-
-### Visualisation
-
-* Matplotlib
-* Seaborn
-
-### Machine Learning
-
-* scikit-learn
-
-Common scikit-learn components used throughout the projects include:
-
-```python
-train_test_split
-cross_val_score
-cross_validate
-cross_val_predict
-GridSearchCV
-Pipeline
-StandardScaler
-OneHotEncoder
-SimpleImputer
+```text
+M
 ```
-
-as well as classification and regression estimators.
-
----
-
-## Goals
-
-The main goals of this repository are to:
-
-* Develop practical machine learning skills using real datasets.
-* Build a strong understanding of the major supervised learning algorithms.
-* Learn how to construct reproducible machine learning workflows.
-* Improve Python, pandas, NumPy, Matplotlib, and scikit-learn skills.
-* Practise exploratory data analysis and feature engineering.
-* Learn appropriate model evaluation techniques.
-* Compare multiple models rather than relying on a single algorithm.
-* Develop experience with cross-validation and hyperparameter optimisation.
-* Build a portfolio of machine learning projects demonstrating practical data science skills.
-
----
-
-## Future Projects
-
-As the repository develops, I plan to add projects covering areas such as:
-
-* Housing price prediction
-* Customer churn prediction
-* Credit risk classification
-* Medical classification datasets
-* Ensemble learning
-* Gradient boosting
-* Dimensionality reduction
-* Unsupervised learning
-* Clustering
-* Principal Component Analysis
-* End-to-end machine learning pipelines
-
----
-
-## Status
-
-This repository is a work in progress and will continue to expand as I work through additional machine learning techniques and datasets.
