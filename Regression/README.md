@@ -8,7 +8,8 @@ The projects are intended to develop experience with exploratory data analysis, 
 
 | Project                | Dataset | Problem | Models / Methods | Evaluation | Status  |
 | ---------------------- | ------- | ------- | ---------------- | ---------- | ------- |
-| *Projects coming soon* | —       | —       | —                | —          | Planned |
+| [House-Pricing](./MNIST-classification/)    | |     | Linear Regression, Ridge, Lasso, Decision Trees, Random Forests     |          | In Progress |
+
 
 As new projects are completed, they will be added to this table.
 
@@ -20,7 +21,6 @@ Potential regression projects include:
 
 | Project                       | Problem                             | Techniques                                                      |
 | ----------------------------- | ----------------------------------- | --------------------------------------------------------------- |
-| Housing Price Prediction      | Predict residential property prices | Linear Regression, Ridge, Lasso, Decision Trees, Random Forests |
 | Used Car Price Prediction     | Predict vehicle resale prices       | Feature engineering, regression pipelines, ensemble methods     |
 | Energy Consumption Prediction | Predict continuous energy usage     | Regression, time-related features, model comparison             |
 
