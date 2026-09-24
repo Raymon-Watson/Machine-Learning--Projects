@@ -8,8 +8,8 @@ The projects are used to practise complete classification workflows, including e
 
 | Project     | Dataset         | Problem    | Models / Methods  | Evaluation  | Status      |
 | -------------- | ---------------- | ------------ | -------------------- | ------- | ----------- |
-| [MNIST Digit Classification](./MNIST-classification/)    | MNIST handwritten digits | Multiclass classification of digits 0–9     | SGD, SVM, KNN, Naive Bayes, Random Forest, multiclass strategies         | Accuracy, Precision, Recall, F1, Confusion Matrix          | Completed |
-| [Titanic Survival Prediction](./Titanic-Kaggle/) | Kaggle Titanic           | Binary classification of passenger survival | Logistic Regression, Decision Tree, Random Forest, SVM, KNN, Naive Bayes | Accuracy, Precision, Recall, F1, ROC-AUC, Confusion Matrix | Completed |
+| [MNIST Digit Classification](./MNIST-classification/)    | MNIST handwritten digits | Multiclass classification of digits 0–9     | SGD, SVM, Random Forest, multiclass strategies         | Accuracy, Precision, Recall, F1, Confusion Matrix          | Completed |
+| [Titanic Survival Prediction](./Titanic-Kaggle/) | Kaggle Titanic           | Binary classification of passenger survival | Logistic Regression, Decision Tree, Random Forest, SVM, KNN | Accuracy, Precision, Recall, F1, ROC-AUC, Confusion Matrix | Completed |
 
 ---
 
