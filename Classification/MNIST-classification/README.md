@@ -1,20 +1,12 @@
 # MNIST Classification
 
-A multi-class classification problem for 
+A multi-class classification problem for labelling a collection of 70,000 handwritten digits. This is a very common method to test new classification methods.
 
-## Project Structure
-```text
-Titanic-Kaggle/
-├── data/
-│   └── titanic.csv              # Raw dataset
-│   └── titanic_cleaned.csv      # Cleaned dataset
-├── 01_eda.ipynb                 # Exploratory Data Analysis
-├── 02_data_cleaning.ipynb       # Data Cleaning & Feature Engineering
-├── 03_model_building.ipynb      # Model Training & Evaluation
-└── README.md
-```
+The purpose of this project is to understand better the various methods and measures of performance for a classification task.
 
 ## Notebooks
+
+The analysis is contained in a single notebook: ```text data_analysis.ipynb```.
 |Number| Notebook|Details|
 |-|-|-|
 |01|01_eda.ipynb|Initial data exploration, missing value analysis, univariate and bivariate analysis, correlation|
