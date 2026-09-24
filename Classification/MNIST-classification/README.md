@@ -6,7 +6,7 @@ The purpose of this project is to understand better the various methods and meas
 
 ## Notebooks
 
-The analysis is contained in a single notebook: ```text data_analysis.ipynb```.
+The analysis is contained in a single notebook: ```data_analysis.ipynb```.
 |Number| Notebook|Details|
 |-|-|-|
 |01|01_eda.ipynb|Initial data exploration, missing value analysis, univariate and bivariate analysis, correlation|
