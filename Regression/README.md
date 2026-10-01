@@ -8,7 +8,7 @@ The projects are intended to develop experience with exploratory data analysis, 
 
 | Project                | Dataset | Problem | Models / Methods | Evaluation | Status  |
 | ---------------------- | ------- | ------- | ---------------- | ---------- | ------- |
-| [House-Pricing](./house_pricing/)    | |   Predict residential property prices  | Linear Regression, Ridge, Lasso, Decision Trees, Random Forests     |          | Completed |
+| [House-Pricing](./house_pricing/)    | |   Predict residential property prices  | Linear Regression, Ridge, Lasso, Decision Trees, Random Forests     | R2 score, Mean Absolute Error, Median Absolute Error, Cross-Validation         | Completed |
 
 
 As new projects are completed, they will be added to this table.
