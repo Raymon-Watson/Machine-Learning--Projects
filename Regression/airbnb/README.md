@@ -34,6 +34,7 @@ The AirBnB data, contained in ```airbnb_data.csv``` possesses the following feat
 
 
 ## Data Processing & Analysis
+Due to heavy skewing in a number of key variables, including the target variable, the analysis of this dataset was quite involved. For this reason, we give a brief breakdown of the methods utilized in the process towards our final model.
 
 ### Exploratory Data Analysis
 
@@ -62,16 +63,18 @@ From this, it was found that the Random Forest model provided the best fit witho
 
 ### Transforming the Target Variable
 
+After significant exploration in terms of feature engineering and transformation, it was found that logarithmically transforming the target price variable significantly improved the fit. The Random Forest Regression model was then tuned on this transformed data, resulting in a final R2 of ```~0.6```, which represented a significant improvement to the result.
 
 
 ## Key Findings
-1. **Random Forest was the best performing model** with a tuned accuracy of 0.86 and F1 score of 0.82
-2. **Sex** was by far the most important feature for predicting survival (~74% female survival, ~19% male survival)
-3. **Overall survival rate** was only ~38%
-4. **Lower fare reduced survival rate**, those with the lowest fare had a significantly lower chance of survival
-5. **Larger family size improved survival rate**
-6. **Passenger class** significantly impacted survival rate, with upper class having a survival percentage of ~63%, and lower class of ~24%
+1. Due to heavy outliers, in particular within the target Price variable, logarithmic scaling provided the best means for fitting.
+2. The final Random Forest Regression model on the logarithmically transformed target data achieved an R2 score of ```~0.6``` on the test set.
+3. The un-transformed data achieved an R2 score of ```~0.1```, which is significantly worse, which we attribute to the presence of significant outliers in both the training and test sets.
+4. Distance from city center, an engineered features, represented the most important feature for predicting listing price.
+5. Large differences between the mean absolute error (```~$60.32```) and the median absolute error (```~$23.66```) suggests that extreme outliers greatly reduce the quality of the fit.
 
+
+**Potential future work:** Removing outliers could greatly improve the fit of the original-scale data.
 
 ## How To Run This Project
 1. Clone repository into relevant project folder
