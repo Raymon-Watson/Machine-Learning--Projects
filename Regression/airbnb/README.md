@@ -11,10 +11,50 @@ airbnb/
 └── README.md
 ```
 
+## Data Structure
+
+The AirBnB data, contained in ```airbnb_data.csv``` possesses the following features:
+|column| details|
+|-|-|
+|id| Unique id for each row|
+|name| Listing name|
+|host_id| Unique host id|
+|host_name| Host name|
+|neighbourhood_group| Neighbourhood group name (e.g. Brooklyn, Queens, etc.)|
+|neighbourhood| Specific neighbourhood|
+|latitude| Location latitude|
+|longitude| Location longitude|
+|room_type| Type of room available (e.g. Private room, entire home, etc.)|
+|price| Daily room price|
+|minimum_nights| Minimum number of nights for stay|
+|number_of_reviews| Number of reviews for listing|
+|reviews_per_month| Number of reviews per month|
+|calculated_host_listing_count| Number of listings for given host|
+|availability_365| Number of days per year listing is available|
 
 
-## Results
-6 classification models were trained and compared, with the three best performing model (Random Forest, Logistic Regression, and K-Nearest Neighbors) chosen for further tuning.
+## Data Processing & Analysis
+
+A number of columns were found to have heavily skewed data, these include:
+- minimum_nights
+- number_of_reviews
+- reviews_per_month
+- calculated_host_listings_count
+
+Significantly, the price target variable was heavily skewed, which played into the resulting analysis.
+
+The baseline model was chosen to be simple Linear Regression, which resulted in a fit with an R2 score of ```0.132 ± 0.021```. In an effort to improve this result, we tested:
+- Including polynomial features (up to 4th order)
+- Transforming skewed variables (log, sqrt, cbrt, robust)
+- Regularization (Ridge and Lasso)
+
+**None** of the above tweaks were found to improve the result significantly. Therefore, we moved on to a set of alternative models:
+- Decision Tree Regressor
+- Random Forest Regressor
+- K-Nearest Neighbors
+- Support Vector Machine Regression
+
+From this, it was found that the Random Forest model 
 
 The best model after tuning was found to be the **Random Forest** model, which achieved a final performance on the test set data of:
 - Accuracy: 0.860
