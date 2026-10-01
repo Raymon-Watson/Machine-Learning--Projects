@@ -35,6 +35,8 @@ The AirBnB data, contained in ```airbnb_data.csv``` possesses the following feat
 
 ## Data Processing & Analysis
 
+### Exploratory Data Analysis
+
 A number of columns were found to have heavily skewed data, these include:
 - minimum_nights
 - number_of_reviews
@@ -43,6 +45,7 @@ A number of columns were found to have heavily skewed data, these include:
 
 Significantly, the price target variable was heavily skewed, which played into the resulting analysis.
 
+### Basic Modelling
 The baseline model was chosen to be simple Linear Regression, which resulted in a fit with an R2 score of ```0.132 ± 0.021```. In an effort to improve this result, we tested:
 - Including polynomial features (up to 4th order)
 - Transforming skewed variables (log, sqrt, cbrt, robust)
@@ -54,16 +57,11 @@ The baseline model was chosen to be simple Linear Regression, which resulted in 
 - K-Nearest Neighbors
 - Support Vector Machine Regression
 
-From this, it was found that the Random Forest model 
+From this, it was found that the Random Forest model provided the best fit without tuning, returning a cross-validated R2 score of ```0.193 ± 0.028```, which was still quite poor.
 
-The best model after tuning was found to be the **Random Forest** model, which achieved a final performance on the test set data of:
-- Accuracy: 0.860
-- Precision: 0.806
-- Recall: 0.841
-- F1: 0.823
-- AUC 0.899
 
-Best GridSearchCv parameters: {'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 7, 'n_estimators': 40}
+### Transforming the Target Variable
+
 
 
 ## Key Findings
