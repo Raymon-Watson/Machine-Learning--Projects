@@ -2,6 +2,8 @@
 
 A regression problem for predicting the price of AirBnB listings based on features such as location (longitude/latitude), availability, number of reviews, etc.
 
+This dataset contained significant outliers in pricing, which meant that a lot of effort was spent tuning the fit and engineering features. As such, we give details on the process of model fitting in the **Data Processing & Analysis** section below.
+
 ## Project Structure
 ```text
 airbnb/
